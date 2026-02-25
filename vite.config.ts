@@ -5,6 +5,7 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/liz-app/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
